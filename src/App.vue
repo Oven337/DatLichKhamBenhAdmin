@@ -1,6 +1,7 @@
 <script setup>
 import DoctorInfo from "./DoctorInfo.vue";
 import Introduction from "./Introduction.vue";
+import TryProject from "./TryProject.vue";
 </script>
 
 <template>
@@ -8,6 +9,7 @@ import Introduction from "./Introduction.vue";
     <!-- Introduction -->
     <Introduction></Introduction>
 
+    <TryProject></TryProject>
     <!-- Doctor Info -->
     <DoctorInfo></DoctorInfo>
   </div>
